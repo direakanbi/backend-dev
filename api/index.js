@@ -15,7 +15,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
-app.get('/api/mybackend-details', (req, res) => {
+app.get('/mybackend-details', (req, res) => {
     res.json({
         email: email,
         current_datetime: new Date().toISOString(),

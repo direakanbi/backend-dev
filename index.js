@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 3000
 
 const email = "direakanbi@icloud.com"
-const github_url = "github.com/direakanbi"
+const github_url = "github.com/direakanbi/backend-dev"
 
 
 app.use(cors())

@@ -31,7 +31,7 @@ The server will be running at `http://localhost:3000`.
 ## API Documentation
 
 ### Endpoint URL
-- **GET** `/api/mybackend-details`
+- **GET** `https://backend-dev-production-3384.up.railway.app/api/mybackend-details`
 
 ### Request Format
 - **Method**: GET
@@ -52,7 +52,7 @@ The server will be running at `http://localhost:3000`.
 ### Example Usage
 To retrieve the backend details, you can use a tool like `curl` or Postman:
 ```bash
-curl -X GET http://localhost:3000/api/mybackend-details
+curl -X GET https://backend-dev-production-3384.up.railway.app/api/mybackend-details
 ```
 
 This will return a JSON response similar to the following:
